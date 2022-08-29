@@ -1,0 +1,43 @@
+/* #name{
+    color: blue;
+}
+#age{
+    color: yellow;
+}
+#Number{
+    color: red;
+}
+.box{
+    color: rgb(230, 35, 68);
+    background-color: aqua;
+} */
+/* body{ */
+    /* background-color: black; */
+    /* background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80); */
+    /* background-position: right; */
+    /* background-repeat: repeat-y */
+    /* ; */
+    /* background-size: cover; */
+    /* background-image: url(order-bg.png); */
+/* } */
+
+#divbox{
+    background-color: red;
+    display: inline;
+}
+#spanbox{
+    background-color: blue;
+}
+#div2{
+    background-color: aquamarine;
+    display: inline;
+}
+
+
+
+#text{
+    text-align: center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    text-shadow:5px 2px 3px red;
+}

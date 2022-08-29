@@ -1,0 +1,26 @@
+/* table{
+    border: 2px solid red;
+}
+td,th{
+    border-bottom: 2px solid red;
+}
+td{
+    border-right: 2px solid red;
+}
+th{
+    border-right: 2px solid purple;
+} */
+table,td,th{
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+td,th{
+    margin: 25px;
+    padding: 10px; 
+}
+td{
+    background-color: yellow;
+}
+th{
+    background-color: greenyellow;
+}

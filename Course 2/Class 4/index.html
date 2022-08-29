@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- CSS linking -->
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+</head>
+<body>
+    <h1>Contact form</h1>
+    <form action="https://send.pageclip.co/2XrQ0RvGDEhITbbNlGHUUa70MruBKPKR" class="pageclip-form" method="post">
+        <!-- First Label -->
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your First Name ">
+
+        <!-- Second Label -->
+        <label for="">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter Your last Name">
+
+        <!-- Third Label -->
+        <label for="contact">Mobile Number</label>
+        <input type="number" id="contact" name="Mobile Number" placeholder="Enter your Mobile number">
+
+        <!-- Fourth Label -->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" placeholder="Enter your email address">
+
+        <!-- Fifth Label -->
+        <label for="country">Country</label>
+        <select name="Country" id="country">
+            <option value="Pakistan">Pakistan</option>
+            <option value="Saudia Arabia">Saudia Arabia</option>
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+        </select>
+
+        <!-- Sixth Label -->
+        <label for="">Message</label>
+        <textarea name="Message" id="" cols="60" rows="10"></textarea>
+
+        <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+        <button type="submit" class="pageclip-form__submit">
+            <span>Send</span>
+          </button>
+
+    </form>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+   
+</body>
+</html>
