@@ -10,6 +10,9 @@
     <!-- CSS linking -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <title>Hospital Website</title>
   </head>
   <body>
@@ -26,14 +29,14 @@
               <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item pr-5">
-              <a class="nav-link font-weight-bold" href="#">Services</a>
+              <a class="nav-link font-weight-bold" href="./services.html">Services</a>
             </li>
 
             <li class="nav-item pr-5">
-                <a class="nav-link font-weight-bold" href="#">Contacts</a>
+                <a class="nav-link font-weight-bold" href="./contacts.html">Contacts</a>
               </li>
               <li class="nav-item pr-5">
-                <a class="nav-link font-weight-bold" href="#">Blogs</a>
+                <a class="nav-link font-weight-bold" href="./blogs.html">Blogs</a>
               </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -65,20 +68,214 @@
 
     <!-- about starts -->
     <section class="about">
-        <div class="container py-5">
+        <div class="container py-5 text-center">
             <div class="row">
                 <div class="col-lg-6">
                     <img src="/images/about.jpg" class="img-fluid" style="border-radius: 42px; height:500px ;" alt="">
                 </div>
                 <div class="col-lg-6">
-
+                  <h1 class="py-5" style="color: red;">About Us</h1>
+                  <p class="pl-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ab dolore at iusto? Doloremque, mollitia? Inventore, qui commodi optio voluptatibus minima laboriosam enim eveniet. Cupiditate dicta et natus eos ullam consequuntur enim delectus quisquam magnam sit, iste, sed minus illo nisi recusandae totam libero tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae dolores voluptatum alias consequatur fuga</p>
+                  <center><button class="btn btn-success my-3">Read more</button></center>
                 </div>
+
             </div>
         </div>
     </section>
-
-
     <!-- about ends -->
+    <!-- doctor section starts -->
+    <section class="doctor" style="background-color: rgb(249, 45, 45);">
+      <div class="container text-center py-5">
+        <h1 class="py-3">Our Doctors</h1>
+        <hr>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card py-3">
+              <div class="card-head">
+                <p class="font-weight-bold">Dr. Pedro Fernandes <br><small>USA new York</small> <br>Neurologist</p>
+                <img src="/images/doctor-1.jpg" class="img-fluid" alt="">
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis nostrum facilis?</p>
+                <span style="font-size: 20px;"><i class="fa-brands fa-facebook"></i></span>
+                <span style="font-size: 20px;"><i class="fa-brands fa-twitter pl-5"></i></span>
+                <span style="font-size: 20px;"><i class="fa-brands fa-whatsapp pl-5"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card py-3">
+              <div class="card-head">
+                <p class="font-weight-bold">Dr. Richard Sanchez <br><small>USA new York</small> <br>Neurologist</p>
+                <img src="/images/doctor-2.jpg" class="img-fluid" alt="">
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis nostrum facilis?</p>
+                <span style="font-size: 20px;"><i class="fa-brands fa-facebook"></i></span>
+                <span style="font-size: 20px;"><i class="fa-brands fa-twitter pl-5"></i></span>
+                <span style="font-size: 20px;"><i class="fa-brands fa-whatsapp pl-5"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card py-3">
+              <div class="card-head">
+                <p class="font-weight-bold">Dr. Kyrie Petrakis <br><small>USA new York</small> <br>Neurologist</p>
+                <img src="/images/doctor-3.jpg" class="img-fluid" alt="">
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis nostrum facilis?</p>
+                <span style="font-size: 20px;"><i class="fa-brands fa-facebook"></i></span>
+                <span style="font-size: 20px;"><i class="fa-brands fa-twitter pl-5"></i></span>
+                <span style="font-size: 20px;"><i class="fa-brands fa-whatsapp pl-5"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card py-3">
+              <div class="card-head">
+                <p class="font-weight-bold">Dr. Juliana Silva <br><small>USA new York</small> <br>Neurologist</p>
+                <img src="/images/doctor-4.jpg" class="img-fluid" alt="">
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis nostrum facilis?</p>
+                <span style="font-size: 20px;"><i class="fa-brands fa-facebook"></i></span>
+                <span style="font-size: 20px;"><i class="fa-brands fa-twitter pl-5"></i></span>
+                <span style="font-size: 20px;"><i class="fa-brands fa-whatsapp pl-5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- doctor section ends -->
+
+    <!-- our services section starts -->
+    <section class="services">
+      <div class="container py-5 text-center">
+        <h1>Our Services</h1>
+        <hr>
+        <div class="row">
+          <div class="col-lg-4">
+            <span><i class="fa-solid fa-user-nurse service-icon py-3"></i></span>
+            <h2 class="font-weight-bold">Team of Nurses</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur officiis culpa magnam omnis explicabo, blanditiis eaque itaque praesentium sunt. Sequi debitis voluptates fuga tempora amet?</p>
+          </div>
+          <div class="col-lg-4">
+            <span><i class="fa-solid fa-kit-medical service-icon py-3"></i></span>
+            <h2 class="font-weight-bold">Aid Boxes</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur officiis culpa magnam omnis explicabo, blanditiis eaque itaque praesentium sunt. Sequi debitis voluptates fuga tempora amet?</p>
+          </div>
+          <div class="col-lg-4">
+            <span><i class="fa-solid fa-syringe service-icon py-3"></i></span>
+            <h2 class="font-weight-bold">Better Treatment</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur officiis culpa magnam omnis explicabo, blanditiis eaque itaque praesentium sunt. Sequi debitis voluptates fuga tempora amet?</p>
+          </div>
+          <div class="col-lg-4">
+            <span><i class="fa-solid fa-microscope service-icon py-3"></i></span>
+            <h2 class="font-weight-bold">Disease Recovery</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur officiis culpa magnam omnis explicabo, blanditiis eaque itaque praesentium sunt. Sequi debitis voluptates fuga tempora amet?</p>
+          </div>
+          <div class="col-lg-4">
+            <span><i class="fa-solid fa-stethoscope service-icon py-3"></i><span>
+            <h2 class="font-weight-bold">Check-up Time</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur officiis culpa magnam omnis explicabo, blanditiis eaque itaque praesentium sunt. Sequi debitis voluptates fuga tempora amet?</p>
+          </div>
+          <div class="col-lg-4">
+            <span><i class="fa-solid fa-truck-medical service-icon py-3"></i></span>
+            <h2 class="font-weight-bold">Active Emergency</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur officiis culpa magnam omnis explicabo, blanditiis eaque itaque praesentium sunt. Sequi debitis voluptates fuga tempora amet?</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- our services section ends -->
+
+    <!-- Our blogs section starts -->
+    <section class="blog" style="background-color: rgb(249, 45, 45);">
+      <div class="container text-center py-5">
+        <h1>Read Our famous Blogs</h1>
+        <hr>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-head">
+                <img src="./images/blog1.jpg"alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <p><a href="#" class="font-weight-bold">Drugs Tester have found a cure for HIV</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi tempora repellendus quam quia quidem sequi consequuntur temporibus nesciunt modi laboriosam.</p>
+                <button class="btn btn-success">Read more</button>
+                
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-head">
+                <img src="./images/blog2.jpg"alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <p><a href="#" class="font-weight-bold">Hospital Construction Is in First Stage</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi tempora repellendus quam quia quidem sequi consequuntur temporibus nesciunt modi laboriosam.</p>
+                <button class="btn btn-success">Read more</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-head">
+                <img src="./images/blog3.jpg"alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <p><a href="#" class="font-weight-bold">Researchers have found a new virus</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi tempora repellendus quam quia quidem sequi consequuntur temporibus nesciunt modi laboriosam.</p>
+                <button class="btn btn-success">Read more</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our blogs section ends -->
+    
+    <!-- contact section starts -->
+    <section class="contact">
+      <div class="container text-center py-5">
+        <h1>Contact us</h1>
+        <hr>
+        <div class="row">
+          <div class="col-lg-4">
+            <span><i class="fa-solid fa-phone service-icon py-3"></i></span>
+            <h4>Give us a short call</h4>
+          </div>
+          <div class="col-lg-4">
+            <span><i class="fa-solid fa-location-dot service-icon py-3"></i></span>
+            <h4>Search us on google</h4>
+          </div>
+          <div class="col-lg-4">
+            <span><i class="fa-solid fa-envelope service-icon py-3"></i></span>
+            <h4>xyz@gmail.com</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section ends -->
+
+    <!-- Footer starts -->
+    <footer class="footer" style="background-color:rgb(249, 45, 45) ;">
+      <div class="container text-center py-5">
+        <p class="font-weight-bold" style="font-size: 20px;">All rights reserved  <br>
+        Copy right &copy; <br>
+      <a href="#" class="text-white">Created by SAFA RIZWAN</a></p>
+      </div>
+    </footer>
+
+
+    <!-- footer ends -->
+
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

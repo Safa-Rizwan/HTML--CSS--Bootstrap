@@ -60,13 +60,13 @@ nav ul li a:hover{
     margin: 0 0 0 12px;
 }
 .slider{
-    width: 66vw;
+    width: 60%;
     margin: 10px auto;
     overflow: hidden;
 }
 /* Cart items */
 .container{
-    min-height: calc(100vh - 58px - 12vh);
+    min-height: 30%;
 }
 .card{
     background-color: white;
@@ -115,7 +115,4 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-@media screen {
-    
 }
